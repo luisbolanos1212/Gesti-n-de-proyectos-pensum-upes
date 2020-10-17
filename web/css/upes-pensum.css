@@ -1,0 +1,61 @@
+#pensum-search{
+     background-color: #051159
+}
+
+.cursando-materia .row, li.cursando-materia{
+    background-color: #FF8800 !important;
+    font-weight: bold;
+}
+
+.materia-aprobada .row, li.materia-aprobada{
+    background-color: #007E33 !important;
+    font-weight: bold;
+}
+
+.materia-reprobada .row, li.materia-reprobada{
+    background-color: #CC0000 !important;
+    font-weight: bold;
+}
+
+.texto-cursando{color: #FF8800  }
+.texto-aprobada{color: #007E33 }
+.texto-reprobada{color: #CC0000 }
+
+.columna-pensum{
+    font-size: 10px;
+    padding: 0 0 3px 0;
+    cursor: pointer;
+}
+
+.row-correlativo-y-uvs{
+   font-size: 9px !important;
+} 
+
+.row-correlativo-y-uvs, .row-codigo, #pensum .ciclo-info{
+        width: 96px;
+        height: 15px;
+        margin: 0px !important;
+}
+
+.row-nombre{
+    width: 96px;
+    height: 30px;
+    margin: 0px !important;
+}
+
+.borde-izquierdo{
+    border-left: solid black 1px;
+}
+
+.borde-row-info-materia{
+   border-top: solid black 1px;
+   border-bottom: solid black 1px;
+   border-left: solid black 1px;
+   border-right: solid black 1px;
+}
+
+.borde-row-nombre-materia, .borde-row-codigo-materia, .ciclo-info{    
+    border-left: solid black 1px;
+    border-right: solid black 1px;
+    border-bottom: solid black 1px;
+ }
